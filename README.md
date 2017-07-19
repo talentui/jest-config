@@ -16,7 +16,7 @@ module.exports = require('@beisen/talent-ui-jest-utils')({
 ```
 
 ## 第三步在tests目录下写测试用例
-比如，创建tests/entry.js 测试src/entry.js 因为是在单独的目录下，感觉没有必要再遵循entry.test.js的这样的规则了【待定】
+比如，创建tests/entry.test.js 测试src/entry.js 因为是在单独的目录下，<del>感觉没有必要再遵循entry.test.js的这样的规则了【待定】</del>
 
 ```js
 import 'babel-polyfill'
