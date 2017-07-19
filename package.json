@@ -1,0 +1,14 @@
+{
+    "name": "@beisen/talent-ui-jest-utils",
+    "version": "1.0.2",
+    "main": "index.js",
+    "license": "MIT",
+    "author": {
+        "name": "LiGuoming",
+        "email": "liguoming@beisen.com"
+    },
+    "dependencies": {
+        "@beisen/talent-ui-webpack-config": "^1.2.10",
+        "babel-jest": "^20.0.3"
+    }
+}
