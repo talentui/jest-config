@@ -11,6 +11,7 @@ module.exports = function(options = {}) {
 
         moduleDirectories: [path.resolve(appRoot, "./src"), "node_modules"],
         globals: globals || {},
+        collectCoverageFrom: ["**/src/**/*.{js,jsx}", "!**/node_modules/**"],
         moduleNameMapper: {
             //模块查找规则， 第一条与talent-ui的默认规则相同，其他的是非js模块的处理规则
             "&(.*)$": "<rootDir>/src$1",
