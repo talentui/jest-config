@@ -16,6 +16,7 @@ Object {
     "\\\\.(css|less|scss)$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/style-mock.js",
     "\\\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/file-mock.js",
   },
+  "testRegex": "(/__tests__/.*|(\\\\.|/)(test|spec))\\\\.(jsx?|tsx?)$",
   "transform": Object {
     "^.+\\\\.jsx?$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/js-processor.js",
     "^.+\\\\.tsx?$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/ts-processor.js",

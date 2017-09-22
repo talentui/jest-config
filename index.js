@@ -9,6 +9,7 @@ module.exports = function(options = {}) {
         //自定义如何处理js文件
         transform: {
             "^.+\\.jsx?$": path.resolve(__dirname, "./utils/js-processor.js"),
+            // support ts 单元测试用例
             "^.+\\.tsx?$": path.resolve(__dirname, "./utils/ts-processor.js")
         },
 
@@ -21,6 +22,7 @@ module.exports = function(options = {}) {
             "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
                 path.resolve(__dirname,'./utils/file-mock.js'),
             "\\.(css|less|scss)$": path.resolve(__dirname,'./utils/style-mock.js')
-        }
+        },
+        testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$"
     };
 };

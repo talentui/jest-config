@@ -1,1 +1,1 @@
-module.exports = require('ts-jest');
+module.exports = require('ts-jest/preprocessor.js');
