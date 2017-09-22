@@ -9,6 +9,8 @@
     },
     "dependencies": {
         "@beisen/talent-ui-webpack-config": "^1.2.10",
-        "babel-jest": "^20.0.3"
+        "@types/jest": "^20.0.8",
+        "babel-jest": "^20.0.3",
+        "ts-jest": "^21.0.1"
     }
 }

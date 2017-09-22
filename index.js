@@ -1,12 +1,15 @@
 const path = require("path");
 module.exports = function(options = {}) {
 
-    let {root: appRoot = path.resolve(__dirname, "../../../"), globals } = options;
+    let {root: appRoot = process.cwd(), globals } = options;
+
+    console.log(`current work directory is ${appRoot}`)
 
     return {
         //自定义如何处理js文件
         transform: {
-            "^.+\\.jsx?$": path.resolve(__dirname, "./utils/processor.js")
+            "^.+\\.jsx?$": path.resolve(__dirname, "./utils/js-processor.js"),
+            "^.+\\.tsx?$": path.resolve(__dirname, "./utils/ts-processor.js")
         },
 
         moduleDirectories: [path.resolve(appRoot, "./src"), "node_modules"],
