@@ -11,6 +11,13 @@ Object {
     "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/src",
     "node_modules",
   ],
+  "moduleFileExtensions": Array [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+  ],
   "moduleNameMapper": Object {
     "&(.*)$": "<rootDir>/src$1",
     "\\\\.(css|less|scss)$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/style-mock.js",
