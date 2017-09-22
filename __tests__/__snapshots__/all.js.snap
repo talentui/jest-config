@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`生成snapshot 1`] = `
+Object {
+  "collectCoverageFrom": Array [
+    "**/src/**/*.{js,jsx}",
+    "!**/node_modules/**",
+  ],
+  "globals": Object {},
+  "moduleDirectories": Array [
+    "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/src",
+    "node_modules",
+  ],
+  "moduleNameMapper": Object {
+    "&(.*)$": "<rootDir>/src$1",
+    "\\\\.(css|less|scss)$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/style-mock.js",
+    "\\\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/file-mock.js",
+  },
+  "transform": Object {
+    "^.+\\\\.jsx?$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/js-processor.js",
+    "^.+\\\\.tsx?$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/ts-processor.js",
+  },
+}
+`;
