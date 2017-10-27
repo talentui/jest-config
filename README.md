@@ -1,5 +1,5 @@
 ## 第一步， 创建文件，添加依赖
-* 安装jest  enzyme ，react-addons-test-utils和@beisen/talent-ui-jest-utils 别忘了save dev
+* 安装jest  enzyme ，react-addons-test-utils和@talentui/jest-config 别忘了save dev
 * 在package.json => scripts 添加 `jest --config jest.config.js`
 * 在项目根目录下创建jest.config.js， 作为jest的配置文件
 * 在项目根目录下创建tests目录用来放测试用例
@@ -10,7 +10,7 @@
 ```js
  const path = require("path");
 const appRoot = path.resolve(__dirname);
-module.exports = require('@beisen/talent-ui-jest-utils')({
+module.exports = require('@talentui/jest-config')({
     root: appRoot
 });
 ```
