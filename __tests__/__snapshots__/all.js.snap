@@ -8,7 +8,7 @@ Object {
   ],
   "globals": Object {},
   "moduleDirectories": Array [
-    "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/src",
+    "/Users/neo/Projects/talent-ui-2.0/Components/jest-config/src",
     "node_modules",
   ],
   "moduleFileExtensions": Array [
@@ -20,13 +20,13 @@ Object {
   ],
   "moduleNameMapper": Object {
     "&(.*)$": "<rootDir>/src$1",
-    "\\\\.(css|less|scss)$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/style-mock.js",
-    "\\\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/file-mock.js",
+    "\\\\.(css|less|scss)$": "/Users/neo/Projects/talent-ui-2.0/Components/jest-config/utils/style-mock.js",
+    "\\\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "/Users/neo/Projects/talent-ui-2.0/Components/jest-config/utils/file-mock.js",
   },
   "testRegex": "(/__tests__/.*|(\\\\.|/)(test|spec))\\\\.(jsx?|tsx?)$",
   "transform": Object {
-    "^.+\\\\.jsx?$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/js-processor.js",
-    "^.+\\\\.tsx?$": "/Users/neo/Projects/talent-ui-2.0/Components/talent-ui-jest-utils/utils/ts-processor.js",
+    "^.+\\\\.jsx?$": "/Users/neo/Projects/talent-ui-2.0/Components/jest-config/utils/js-processor.js",
+    "^.+\\\\.tsx?$": "/Users/neo/Projects/talent-ui-2.0/Components/jest-config/utils/ts-processor.js",
   },
 }
 `;

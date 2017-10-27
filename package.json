@@ -1,30 +1,42 @@
 {
-    "name": "@talentui/jest-config",
-    "version": "1.0.0",
-    "main": "index.js",
-    "license": "MIT",
-    "author": {
-        "name": "LiGuoming",
-        "email": "liguoming@beisen.com"
-    },
-    "scripts": {
-        "test": "jest"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/talentui/jest-config.git"
-    },
-    "engines": {
-        "node": ">=6.0.0"
-    },
-    "dependencies": {
-        "@talentui/webpack-config": "^1.0.0",
-        "@types/jest": "^20.0.8",
-        "babel-jest": "^20.0.3",
-        "ts-jest": "^21.0.1"
-    },
-    "devDependencies": {
-        "jest": "^21.1.0"
-    },
-    "peerDependencies": {}
+  "name": "@talentui/jest-config",
+  "version": "0.0.0-development",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "LiGuoming",
+    "email": "liguoming@beisen.com"
+  },
+  "scripts": {
+    "precm":"jest",
+    "test": "jest",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "cm": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talentui/jest-config.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "@talentui/webpack-config": "^1.0.0",
+    "@types/jest": "^20.0.8",
+    "babel-jest": "^20.0.3",
+    "ts-jest": "^21.0.1"
+  },
+  "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "husky": "0.14.3",
+    "jest": "^21.1.0",
+    "semantic-release": "^8.2.0"
+  },
+  "peerDependencies": {},
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
