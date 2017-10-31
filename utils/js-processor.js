@@ -1,2 +1,2 @@
-const babelConfig = require('@talentui/webpack-config/helpers/get-babel-config.js')();
+const babelConfig = require('@talentui/get-babel-config')();
 module.exports = require('babel-jest').createTransformer(babelConfig)
