@@ -1,9 +1,6 @@
 const path = require("path");
 module.exports = function(options = {}) {
     let { root: appRoot = process.cwd(), globals } = options;
-
-    console.log(`current work directory is ${appRoot}`);
-
     return {
         //自定义如何处理js文件
         transform: {
