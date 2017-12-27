@@ -25,6 +25,8 @@ module.exports = function(options = {}) {
             )
         },
         testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-        moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json"]
+        moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json"],
+        setupFiles: ["raf/polyfill"],
+        setupTestFrameworkScriptFile:'./emzyme.config.js'
     };
 };
